@@ -1,0 +1,60 @@
+/* Start navbar  */
+.navbar {
+  box-shadow: 0 0 10px #777;
+}
+/* End navbar  */
+/* Start home  */
+.home {
+  background-image: url(/imgs/home.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.home::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+/* End home  */
+/* Start reasearch analysis */
+.section-number {
+  font-size: 200px ;
+  font-weight: 900; 
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; 
+}
+.research .box .section-number {
+  background-image: url('/imgs/research.jpg');
+}
+/*End reasearch analysis */
+/* Start sketch */
+.sketch .box .section-number {
+  background-image: url('/imgs/sketch.jpg');
+}
+/* End sketch */
+/* Start design */
+.design .box .section-number {
+  background-image: url('/imgs/design.jpg');
+}
+/* End design */
+/* Start market */
+.market .box .section-number {
+  background-image: url('/imgs/market.jpg');
+}
+/* End market */
+/* Start footer  */
+.footer .map-bg {
+  background-image: url('/imgs/contact-details-map.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* End footer  */
